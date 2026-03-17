@@ -31,8 +31,6 @@ npm install @mui/icons-material
 # 6. Iniciar la aplicación en modo desarrollo
 npm run dev
 
-
-
 calculadora-financiera/
 ├── src/
 │   ├── components/
@@ -55,7 +53,6 @@ Descuentos: Descuento comercial, real, compuesto y equivalencia i ↔ d
 
 <img src="docs/imagenes/tasas-toggle.png" alt="Toggle de tasas">
 <img src="docs/imagenes/descuentos-ejemplo.png" alt="Ejemplo de descuentos">
-
 
 ## Explicación detallada de los componentes
 
