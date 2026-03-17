@@ -1,0 +1,195 @@
+body{
+margin:0;
+background:#f4f6fb;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+/* APP */
+
+.app{
+display:flex;
+height:100vh;
+}
+
+/* SIDEBAR */
+
+.sidebar{
+width:230px;
+background:#0f172a;
+color:white;
+padding:25px;
+}
+
+.sidebar h2{
+margin-bottom:30px;
+}
+
+.sidebar ul{
+list-style:none;
+padding:0;
+}
+
+.sidebar li{
+padding:12px;
+border-radius:6px;
+cursor:pointer;
+}
+
+.sidebar li:hover{
+background:#1e293b;
+}
+
+/* CONTENIDO */
+
+.contenido {
+  flex:1;
+  padding: 40px 20px;  /* Reduce left/right a 20px, o incluso 0 si quieres full */
+  background: #f3f4f6;
+  overflow: auto;
+}
+/* CARD */
+
+.card{
+background:white;
+padding:30px;
+border-radius:12px;
+box-shadow:0 8px 20px rgba(0,0,0,0.08);
+max-width:1200px;
+margin:auto;
+}
+
+/* DESCRIPCION */
+
+.descripcion{
+font-size:14px;
+color:#555;
+margin-bottom:25px;
+}
+
+/* GRID PRINCIPAL */
+
+.layout{
+display:grid;
+grid-template-columns:420px 1fr;
+gap:40px;
+}
+
+/* FORMULARIO */
+
+.panel-izquierdo{
+display:flex;
+flex-direction:column;
+gap:15px;
+}
+
+/* RESULTADOS */
+
+.panel-derecho{
+display:flex;
+flex-direction:column;
+gap:30px;
+}
+
+/* INPUTS */
+
+.form-group{
+display:flex;
+flex-direction:column;
+gap:5px;
+}
+
+label{
+font-weight:600;
+font-size:14px;
+color:#333;
+}
+
+input, select{
+padding:11px;
+border-radius:6px;
+border:1px solid #d1d5db;
+font-size:14px;
+background:white;
+color:#111;
+}
+
+input:focus, select:focus{
+outline:none;
+border-color:#2563eb;
+}
+
+/* RADIO */
+
+.radio-group{
+display:flex;
+gap:20px;
+}
+
+/* BOTONES */
+
+.botones{
+display:flex;
+gap:10px;
+margin-top:10px;
+}
+
+button{
+padding:10px 16px;
+border:none;
+border-radius:6px;
+cursor:pointer;
+font-weight:600;
+}
+
+.botones button:nth-child(1){
+background:#2563eb;
+color:white;
+}
+
+.botones button:nth-child(2){
+background:#6b7280;
+color:white;
+}
+
+.botones button:nth-child(3){
+background:#16a34a;
+color:white;
+}
+
+/* GRAFICA */
+
+.grafica{
+background:#ffffff;
+padding:20px;
+border-radius:10px;
+box-shadow:0 2px 6px rgba(0,0,0,0.05);
+}
+
+/* TABLA */
+
+.tabla{
+background:white;
+padding:15px;
+border-radius:10px;
+box-shadow:0 2px 6px rgba(0,0,0,0.05);
+}
+
+table{
+width:100%;
+border-collapse:collapse;
+}
+
+th, td{
+border:1px solid #ddd;
+padding:10px;
+text-align:center;
+}
+
+th{
+background:#2563eb;
+color:white;
+}
+
+tr:nth-child(even){
+background:#f3f4f6;
+}
