@@ -52,6 +52,7 @@ Tasas de Interés: Interés simple y compuesto con múltiples incógnitas
 Descuentos: Descuento comercial, real, compuesto y equivalencia i ↔ d
 
 <img src="docs/imagenes/tasas-toggle.png" alt="Toggle de tasas">
+![Vista general de la aplicación](docs/imagenes/tasas-toogle.png)
 <img src="docs/imagenes/descuentos-ejemplo.png" alt="Ejemplo de descuentos">
 
 ## Explicación detallada de los componentes
